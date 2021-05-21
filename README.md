@@ -1,3 +1,3 @@
 # caichunyu.github.io
-caichunyu.com
+（caichunyu.com）
 欢迎来到我的blog
