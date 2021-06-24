@@ -1,6 +1,11 @@
 ---
 title: Hello World
 # top_img: ./img/index.png
+categories: 
+- 记录
+tags:
+- hexo
+- Gitalk
 ---
 一般学习新的语言，第一行代码就是hello world，所以我博客的第一篇文章名称就是它了，本文主要讲一下在安装过程中遇到的小问题，包括hexo-theme-next在本地显示正常，部署之后无css样式；使用Gitalk评论无法正常显示；还有主页的默认图片路径问题。
 
