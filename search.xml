@@ -11,6 +11,22 @@
         <content type="html"><![CDATA[<p>一般学习新的语言，第一行代码就是hello world，所以我博客的第一篇文章名称就是它了，本文主要讲一下在安装过程中遇到的小问题，包括hexo-theme-next在本地显示正常，部署之后无css样式；使用Gitalk评论无法正常显示；还有主页的默认图片路径问题。</p><h2 id="hexo-theme-next-css样式不显示"><a href="#hexo-theme-next-css样式不显示" class="headerlink" title="hexo-theme-next css样式不显示"></a>hexo-theme-next css样式不显示</h2><p>本地正常显示，GitHub page 部署后css样式不显示这个是GitHub库设置的路径问题，解决方法为，在hexo配置文件_config.yml内，找到 url 这个配置项，里面设置url和root跟目录的位置。比如我的站点路径是 <a href="https://xxxxxx.github.io/">https://xxxxxx.github.io/</a> 那么，将root设置为 / 红色圈中是官方的注释<br><img src="/img/2021/hexo-theme-next_css%E6%A0%B7%E5%BC%8F%E4%B8%8D%E6%98%BE%E7%A4%BA.png" alt="hexo-theme-next css样式不显示"></p><h2 id="默认图片路径"><a href="#默认图片路径" class="headerlink" title="默认图片路径"></a>默认图片路径</h2><p>主页，文章页默认图片路径设置为绝对路径，在文章中引入图片有下面三种办法：<br>    绝对引用: 在 /source 下放图片文件夹<br>    相对引用: 使用 post_asset_folder:true 建立文章同名文件夹<br>    CDN 或者图床引用<br>注意方法一的话无法在markdown中预览，因为路径不一样。</p><h2 id="Gitalk评论无法正常显示"><a href="#Gitalk评论无法正常显示" class="headerlink" title="Gitalk评论无法正常显示"></a>Gitalk评论无法正常显示</h2><p>我遇到的问题是显示，未找到相关的Issues评论，请联系***初始化创建，然后登录的话就会进入我的博客主页，然后发现是回调地址的问题，详细参见：<a href="https://github.com/gitalk/gitalk/issues/115">hexo next 主题配置 gitalk 评论后无法初始化创建 issue</a>。</p>]]></content>
       
       
+      <categories>
+          
+          <category> 记录 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> jQuery </tag>
+            
+            <tag> 表格 </tag>
+            
+            <tag> 表单验证 </tag>
+            
+        </tags>
       
     </entry>
     
